@@ -12,8 +12,8 @@ repos:
     -   id: check-yaml
         args: [--allow-multiple-documents]
     -   id: check-added-large-files
--   repo: https://github.com/dmitri-lerko/pre-commit-docker-kustomize
-    rev: f3a8533
+-   repo: https://github.com/sermojohn/pre-commit-docker-kustomize
+    rev: 2fc7ed8
     hooks:
     -   id: kustomize
         name: kustomize-development
